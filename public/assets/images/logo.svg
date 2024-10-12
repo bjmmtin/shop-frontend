@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 600 100"
+  width="600"
+  height="100"
+>
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text
+    x="50%"
+    y="50"
+    font-family="'Comic Sans MS', cursive, sans-serif"
+    font-size="90"
+    font-weight = "bold"
+    fill="#333"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    Clothes Store
+  </text>
+  <ellipse cx="50%" cy="80" rx="40" ry="15" fill="#00e025" />
+  <text
+    x="50%"
+    y="80"
+    font-family="'Arial', sans-serif"
+    font-size="20"
+    fill="#333"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+    2024
+  </text>
+</svg>
