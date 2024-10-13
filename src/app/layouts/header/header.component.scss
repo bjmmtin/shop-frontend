@@ -1,11 +1,20 @@
 .wrapper{
   width: 100%;
-  height: 150px;
   border-bottom: 1px solid var(--border-color);
-  padding: 20px 10px;
+  padding: 2rem;
   box-sizing: border-box;
+  a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    &.active{
+      font-weight: 900;
+    }
+  }
   .logo{
     height: 100%;
+    height: 5rem;
+    margin-right: auto;
     object-fit: contain;
   }
 }

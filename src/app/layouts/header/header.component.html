@@ -1,3 +1,12 @@
 <header class="wrapper row full-center">
-  <img src="assets/images/logo.svg" alt="Logo image" class="logo">
+  <img src="assets/images/logo.svg" alt="Logo image" class="logo" />
+  <div class="row gap-1 mt-15">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    <a routerLink="/about-us" routerLinkActive="active">About</a>
+  </div>
 </header>
